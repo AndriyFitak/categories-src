@@ -1,0 +1,40 @@
+.products  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.basket{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  width: 250px; 
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+.product-card:hover {
+  transform: translateY(-5px); 
+}
+
+.product-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px; 
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card p:first-child {
+  font-weight: bold; 
+}
+
+.product-card p:not(:first-child) {
+  color: #666; 
+}
